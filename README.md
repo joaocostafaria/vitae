@@ -242,11 +242,9 @@
     list-style: none;
     font-family: 'Roboto', sans-serif;
 }
-
 body {
     background-color: #70c6c7;
 }
-
 .resume-contents {
     min-height: 100vh;
     width: 80%;
@@ -254,35 +252,29 @@ body {
     display: grid;
     grid-template-columns: repeat(7, 1fr);
 }
-
 .left-section {
     grid-column: span 2;
     height: 100%;
     background-color: #00204A;
 }
-
 .right-section {
     grid-column: span 5;
     height: 100%;
     background-color: #4B6982;
     border-radius: 0px 60px 0px 0px;
 }
-
 .left-section-content{
     padding: 2rem 2rem;
 }
-
 .profile {
     width: 100%;
     border-bottom: 2px solid #1B2631;
 }
-
 .profile .profile-image {
     width: 100%;
     border-radius: 50%;
     border: 8px solid #1B2631;
 }
-
 .name {
     color: #D6DBDF;
     font-size: 30px;
@@ -292,7 +284,6 @@ body {
     font-weight: bold;
     padding: 1rem 0;
 }
-
 .profession {
     color: #FDB44B;
     font-size: 20px;
@@ -300,10 +291,8 @@ body {
     text-align: center;
     letter-spacing: 2px;
     font-weight: bold;
-    padding-bottom: 1rem;
-    
+    padding-bottom: 1rem;   
 }
-
 /* .contact-info { border-bottom: 2px solid #1B2631; } */
 .left-title {
     color: #FDB44B;
@@ -315,11 +304,9 @@ body {
     align-items: center;
     padding-top: 3rem;
 }
-
 .contact-info ul {
     padding-top: 1.5rem;
 }
-
 .contact-info ul li,
 .references ul li {
     padding: .4rem 0;
@@ -329,14 +316,12 @@ body {
     letter-spacing: 1px;
     font-size: 18px;
 }
-
 .contact-info ul li i,
 .references ul li i {
     padding-right: 1rem;
     font-size: 18px;
     color: #2E86C1;
 }
-
 .skills ul {
     padding-top: 1.5rem;
 }
@@ -349,7 +334,6 @@ body {
     align-items: center;
     text-transform: uppercase;
 }
-
 .referance-name {
     padding-top: 1.5rem;
     padding-bottom: .4rem;
@@ -358,7 +342,6 @@ body {
     letter-spacing: 1px;
     text-transform: uppercase;
 }
-
 .referance-profession {
     font-size: 16px;
     color: #d6dbdfaf;
@@ -366,12 +349,9 @@ body {
     /* text-transform: uppercase; */
     padding-bottom: .4rem;
 }
-
-
 .right-section-contents {
     padding: 2rem 2rem;
 }
-
 .right-title {
     color: #70C6C7;
     font-size: 40px;
@@ -383,7 +363,6 @@ body {
     padding: 2rem 0;
     position: relative;
 }
-
 .gap {
     padding-bottom: 2rem;
 }
@@ -393,7 +372,6 @@ body {
     line-height: 2rem;
     color: #F1F8FD;
 }
-
 .experience-contents,
 .education-contents,
 .awards-contents {
@@ -402,7 +380,6 @@ body {
     padding-bottom: 2rem;
     color: #F1F8FD;
 }
-
 .exp-company-name,
 .education-school-name,
 .awards-company-name {
@@ -413,7 +390,6 @@ body {
     color: #FDB44B;
     padding-bottom: .4rem;
 }
-
 .exp-time-period,
 .educationp-time-period,
 .awards-time-period {
@@ -421,7 +397,6 @@ body {
     letter-spacing: 1px;
     line-height: 2rem;
 }
-
 .exp-position,
 .education-subject,
 .awards-name {
@@ -432,7 +407,6 @@ body {
     color: #FDB44B;
     padding-bottom: .4rem;
 }
-
 .exp-desc,
 .education-desc,
 .awards-desc {
@@ -462,67 +436,54 @@ body {
     }
     
 }
-
 @media screen and (max-width:1200px) {
     .resume-contents {
         grid-template-columns: repeat(1, 1fr);
     }
 }
-
 @media screen and (max-width:390px) {
     .resume-contents {
         width: 100%;
         margin: 0 auto;
     }
-
     .name {
         font-size: 20px;
     }
-
     .profession {
         font-size: 18px;
     }
-
     .left-title {
         font-size: 18px;
     }
-
     .right-title {
         font-size: 18px;
     }
-
     .contact-info ul li,
     .references ul li {
         font-size: 12px;
     }
-
     .contact-info ul li i,
     .references ul li i {
         /* padding-right: 1rem; */
         font-size: 12px;
     }
-
     .skills ul li p {
         font-size: 12px;
     }
-
     .about-me-contents {
         font-size: 16px;
         line-height: 1.5rem;
     }
-
     .exp-company-name,
     .education-school-name,
     .awards-company-name {
         font-size: 18px;
     }
-
     .exp-time-period,
     .educationp-time-period,
     .awards-time-period {
         font-size: 16px;
     }
-
     .exp-position,
     .education-subject,
     .awards-name {
